@@ -4,9 +4,9 @@
   "description": "Backend API for Stellar MicroPay",
   "main": "src/server.js",
   "scripts": {
-    "dev": "nodemon src/server.js",
+    "dev": "node api.js && nodemon src/server.js",
     "dev:turrets": "TURRETS_PORT=4100 nodemon src/server.js",
-    "start": "node src/server.js",
+    "start": "node api.js && node src/server.js",
     "test": "jest",
     "lint": "eslint src/**/*.js"
   },
