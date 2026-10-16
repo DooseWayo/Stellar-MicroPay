@@ -4,7 +4,7 @@
   "description": "Minimal Horizon API mock for integration testing",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node init && node server.js"
   },
   "dependencies": {
     "express": "^4.19.2"
