@@ -1,0 +1,18 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "docs/mock-horizon-readme",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "docs/mock-horizon-readme": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "docs/mock-horizon-readme",
+    "origin"
+  ]
+}
