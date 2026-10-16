@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build --webpack",
-    "start": "serve out -l 3000",
+    "dev": "node init && next dev",
+    "build": "node init && next build --webpack",
+    "start": "node init && serve out -l 3000",
     "lint": "eslint . --max-warnings=0",
     "type-check": "tsc --noEmit",
     "test": "jest --runInBand",

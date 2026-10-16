@@ -30,7 +30,6 @@ ehthumbs.db
 Thumbs.db
 
 # ─── Editor ───────────────────────────────────────────────────────────────────
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -40,7 +39,6 @@ Thumbs.db
 # ─── Misc ─────────────────────────────────────────────────────────────────────
 .worktrees/
 *.log
-.env
 dist/
 build/
 # Playwright
@@ -59,3 +57,4 @@ frontend/tsconfig.tsbuildinfo
 
 # ─── Persistent username store (Issue #1056) ────────────────────────────────
 backend/data/
+config.bat
